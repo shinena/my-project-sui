@@ -1,0 +1,30 @@
+{
+  "code": 200,
+  "message": " 获取成功",
+  "data":[
+    {
+      "id": "1",
+      "title": "vue特性1",
+      "content": "简洁/数据驱动/组件化/模块友好",
+      "Lcontent": "111 111HTMl模版+JSON数据，再创建一个Vue实例，就这样简单"
+    },
+    {
+      "id": "2",
+      "title": "vue特性2",
+      "content": "简洁/数据驱动/组件化/模块友好",
+      "Lcontent": "222 2HTMl模版+JSON数据，再创建一个Vue实例，就这样简单"
+    },
+    {
+      "id": "3",
+      "title": "vue特性3",
+      "content": "简洁/数据驱动/组件化/模块友好",
+      "Lcontent": "333 HTMl模版+JSON数据，再创建一个Vue实例，就这样简单"
+    },
+    {
+      "id": "4",
+      "title": "vue特性4",
+      "content": "简洁/数据驱动/组件化/模块友好",
+      "Lcontent": "444 HTMl模版+JSON数据，再创建一个Vue实例，就这样简单"
+    }
+  ]
+}

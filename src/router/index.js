@@ -4,6 +4,7 @@ import Home from '@/components/Home'
 import Me from '@/components/Me'
 import Star from '@/components/Star'
 import Settings from '@/components/Settings'
+import Detail from '@/components/Detail/Detail'
 Vue.use(Router)
 
 export default new Router({
@@ -33,6 +34,12 @@ export default new Router({
       path: '/Settings',
       name: 'Settings',
       component: Settings
+    },
+    {
+      name: 'Detail',
+      path: '/Detail/:Lcontent',
+      component: Detail
     }
+
   ]
 })

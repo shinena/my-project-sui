@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import VueResource from 'vue-resource'
 
 import Bar from './components/Bar/Bar'
 import BarItem from './components/Bar/BarItem'
@@ -10,6 +11,11 @@ import HeaderTab from './components/Header/Header'
 Vue.component('Bar', Bar)
 Vue.component('BarItem', BarItem)
 Vue.component('HeaderTab', HeaderTab)
+
+Vue.use(VueResource)
+
+Vue.http.options.root = process.env.NODE_ENV === 'depelopment' ? 'static' : '/my-project-sui'
+Vue.http.options.emulateJSON = true
 
 Vue.config.productionTip = false
 

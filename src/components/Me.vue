@@ -14,10 +14,15 @@
         <li><em>{{userData.follower}}</em><span>关注</span></li>
       </ul>
     </div>
+    <user-refer></user-refer>
   </div>
 </template>
 <script>
+import userRefer from './User/User'
 export default {
+  components: {
+    userRefer
+  },
   data () {
     return {
       userData: {
